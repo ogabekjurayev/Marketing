@@ -1,6 +1,8 @@
 * {
-  background-color: #151515;
+  box-sizing: border-box;
+  margin: 0;
 }
+
 @font-face {
   font-family: "Inter,Arial,sans-serif";
   src: url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Sora:wght@100..800&display=swap");
@@ -74,7 +76,7 @@
 
 .Center-Header {
   border: 1px solid red;
-  margin-top: 20px;
+
   width: 1032px;
   height: 300px;
   flex-direction: column;
@@ -105,19 +107,374 @@
   width: 188px;
   height: 40px;
   background-color: rgba(255, 208, 11, 0.1); /* Xira qilish (kam opak) */
-  box-shadow: 0 0 15px rgba(255, 198, 155, 0.2);
   border-radius: 25px; /* Agar chetlarni yumaloqlashtirishni istasangiz */
   margin-left: 150px;
+  filter: blur(12px);
 }
 .box1 {
   width: 60px;
   height: 33px;
   background-color: rgba(255, 208, 50, 0.1); /* Xira qilish (kam opak) */
-  box-shadow: 0 0 15px rgba(255, 198, 155, 0.2);
   border-radius: 10px; /* Agar chetlarni yumaloqlashtirishni istasangiz */
   margin-right: 120px;
+  filter: blur(12px);
 }
 
-.box-shadow {
+/* .box-shadow {
   padding-top: 25px;
+} */
+
+/* header bottom start  */
+
+.Bottom-Header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.Bottom-box-1 {
+  width: 303px;
+  height: 430px;
+  background-color: #04536030;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 120px 30px;
+  margin-top: 20px;
+}
+
+.Bottom-box-2 {
+  width: 303px;
+  height: 430px;
+  background-color: #04536030;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-top: 120px;
+  padding-left: 30px;
+  line-height: 32px;
+  margin-top: 20px;
+}
+
+.Bottom-box-1-img {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  margin-bottom: 25px;
+}
+
+.Bottom-box-1-p {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 400px;
+  color: white;
+}
+
+.Kamoliddin {
+  width: 543px;
+  height: 570px;
+  position: absolute;
+  right: 335px;
+  bottom: 1px;
+  z-index: 1;
+}
+
+.Bottom-box-2-p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Inter;
+  color: white;
+}
+
+.Bottom-box-2-span {
+  color: #f9c501;
+}
+
+/* .Bottom-Kamoliddin {
+} */
+
+.Kamoliddin-obsolud {
+  padding-top: 300px;
+  padding-right: 360px;
+}
+
+.Kamol-btn {
+  position: absolute;
+  width: 370px;
+  height: 120px;
+  border: 3px solid #f9c501;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.Kamol-btn-blue {
+  position: absolute;
+  width: 351px;
+  height: 96px;
+  background-color: blue;
+  /* padding: 10px; */
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  margin-right: 11px;
+  border-radius: 20px;
+  z-index: 3;
+}
+
+.Kamol-Digital {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 31px;
+  border: 3px solid #f9c501;
+  position: absolute;
+  left: 120px;
+  bottom: 100px;
+  z-index: 4;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter;
+  color: black;
+  background-color: #f9c501;
+  border-radius: 50px;
+}
+
+.Kamol-dogital-img {
+  width: 20px;
+  height: 20px;
+}
+
+.Kamol-btn-blue {
+  box-shadow: 0px 10px 30px 3px rgba(4, 83, 96, 0.4);
+  background-color: #045360;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.Kamol-btn-blue-h4 {
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+  margin: 0;
+  line-height: 45px;
+}
+
+.Kamol-btn-blue-p {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+}
+
+/* AbautUs boshlandi  */
+
+.AbautUs {
+  display: flex;
+  margin-top: 50px;
+  gap: 36px;
+  margin-bottom: 100px;
+}
+
+.Line-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Line {
+  width: 300px;
+  border: 1px solid #04536030;
+  filter: blur(1px);
+}
+
+.Biz-Haqimizda {
+  width: 697px;
+  height: 660px;
+  border: 2px solid #04536050;
+  background-color: #131b1c90;
+  border-radius: 20px;
+  background-image: url(./ImgSvg/orqa\ fon\ rasm1.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.Biz-Haqimizda-h1 {
+  font-size: 44px;
+  font-weight: bold;
+  font-family: Inter;
+  text-transform: uppercase;
+  color: #f9c501;
+}
+
+.Biz-Haqimizda-p {
+  font-size: 36px;
+  font-weight: 400px;
+  font-family: Inter;
+  color: white;
+  padding-top: 170px;
+}
+
+.Biz-Haqimizda-bottom {
+  border: 1px solid red;
+  width: 480px;
+}
+
+.Biz-Haqimizda-box-1,
+.Biz-Haqimizda-box-2,
+.Biz-Haqimizda-box-3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.Biz-Haqimizda-box-3 {
+  margin: 0;
+}
+
+.Bosh-div {
+  width: 112px;
+  height: 200px;
+  background-color: #04536030;
+  border-radius: 20px;
+}
+
+.Tajriba {
+  width: 330px;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.Tajriba-h2 {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #045360;
+  margin: 0;
+  padding-bottom: 30px;
+}
+.Tajriba-p {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: Inter;
+  color: #045360;
+  margin: 0;
+}
+
+.Loyiha {
+  width: 330px;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.Loyiha-h2 {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: Inter;
+  color: white;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.Loyiha-p {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: Inter;
+  color: white;
+  margin: 0;
+}
+
+/* KUN u tun boshlandi  */
+
+.KunvaTun-1,
+.KunvaTun-2 {
+  display: flex;
+  gap: 45px;
+  margin-bottom: 45px;
+}
+
+.BiznimaQilaolamiz-box-1 {
+  width: 374px;
+  height: 456px;
+}
+
+.BiznimaQilaolamiz {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 25px;
+}
+
+.BiznimaQilaolamiz-img {
+  width: 24px;
+  height: 24px;
+}
+
+.BiznimaQilaolamiz-h3 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Inter;
+  color: #f9c501;
+  margin: 0;
+}
+
+.BiznimaQilaolamiz-h2 {
+  font-size: 44px;
+  font-weight: 600;
+  font-family: Inter;
+  color: white;
+}
+
+.DigitalMarketing-box-2 {
+  width: 374px;
+  height: 456px;
+  border: 3px solid #045360;
+  border-radius: 20px;
+  background-color: #04536030;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.DigitalMarketing-img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 100px;
+}
+
+.DigitalMarketing-h4 {
+  font-size: 32px;
+  color: white;
+  font-weight: 600;
+  font-family: Inter;
+  margin-bottom: 40px;
+}
+
+.DigitalMarketing-p {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: Inter;
+  color: white;
+  width: 300px;
+}
+
+.DigitalMarketing-p-2 {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: Inter;
+  color: white;
+  width: 250px;
+}
+
+.DigitalMarketing-img-1 {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 60px;
 }
