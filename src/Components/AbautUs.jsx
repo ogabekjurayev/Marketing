@@ -1,5 +1,3 @@
-import BagImg from "../ImgSvg/orqa fon rasm1.svg";
-
 export default function AbautUs() {
   return (
     <div>

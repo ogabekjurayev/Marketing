@@ -12,7 +12,6 @@ const Modal = ({ show, onClose, title, children }) => {
       <div className="modal-dialog">
         <div className="modal-content">
           <div className="modal-header">
-            <h5 className="modal-title"></h5>
             <button
               type="button"
               className="btn-close"
