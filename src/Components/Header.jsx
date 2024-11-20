@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <div className={`header ${theme}`}>
       <div className="Navbar d-flex justify-content-between">
-        <div className="Navbar-box-1">
+        <div className={`Navbar-box-1 ${theme}`}>
           <img className="LL" src={Navbar} alt="" />
           <h3 className="R-Marketing">Raqamli Marketing</h3>
         </div>
@@ -23,7 +23,7 @@ export default function Header() {
           <div onClick={toggleTheme}>
             <img
               className="Light"
-              src={theme === "light" ? Light : Dark}
+              src={theme === "dark" ? Light : Dark}
               alt=""
             />
           </div>
@@ -36,7 +36,7 @@ export default function Header() {
         </div>
       </div>
       <div className="Center-Header">
-        <h1 className="Center-Header-h1">
+        <h1 className={`Center-Header-h1 ${theme}`}>
           <span className="Center-Header-span">34 KUN</span>ICHIDA
           SAVDOLARINGIZNI <span className="Center-Header-span">70% GACHA</span>
           OSHIRING!

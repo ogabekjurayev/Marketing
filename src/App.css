@@ -14,12 +14,26 @@
   margin-top: 30px;
 }
 
+.container3 {
+  max-width: 990px;
+  margin: 0 auto;
+  border: 1px solid blue;
+  margin-top: 30px;
+}
+
 /* header boshlandi navbar qismi */
 
 .Navbar-box-1 {
   display: flex;
   justify-content: center;
   border: 1px solid red;
+  width: 200px;
+}
+
+.Navbar-box-1.light {
+  display: flex;
+  justify-content: center;
+  border: 1px solid green !important;
   width: 200px;
 }
 
@@ -76,7 +90,6 @@
 
 .Center-Header {
   border: 1px solid red;
-
   width: 1032px;
   height: 300px;
   flex-direction: column;
@@ -477,4 +490,396 @@
   width: 80px;
   height: 80px;
   margin-bottom: 60px;
+}
+
+/* Loyiha boshlandi  */
+
+.Sarlavha {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Sarlavha-h2 {
+  font-size: 44px;
+  font-weight: 700;
+  color: white;
+  font-family: Inter;
+  text-transform: uppercase;
+}
+
+.Loyiha-sarlavha,
+.Loyiha-sarlavha-box-2,
+.Loyiha-sarlavha-box-3 {
+  display: flex;
+  background-color: #04536030;
+  border-radius: 35px;
+  margin-bottom: 40px;
+}
+
+.Loyiha-left,
+.Loyiha-left-box-2,
+.Loyiha-left-box-3 {
+  width: 495px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.Loyiha-left-1line,
+.Loyiha-left-1line-box-2,
+.Loyiha-left-1line-box-3 {
+  display: flex;
+  width: 500px;
+  gap: 20px;
+}
+
+.Loyiha-left-1line-p,
+.Loyiha-left-1line-p-box-2,
+.Loyiha-left-1line-p-box-3 {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  background-color: #f9c501;
+  margin: 0;
+  margin-top: 10px;
+}
+.Loyiha-left-1line-h3,
+.Loyiha-left-1line-h3-box-2 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Inter;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 100px;
+}
+.Loyiha-left-1line-h3-box-3 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Inter;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.Loyiha-left-2line,
+.Loyiha-left-2line-box-2,
+.Loyiha-left-2line-box-3 {
+  display: flex;
+  gap: 15px;
+}
+
+.Loyiha-left-2line-img,
+.Loyiha-left-2line-img-box-2,
+.Loyiha-left-2line-img-box-3 {
+  width: 24px;
+  height: 24px;
+}
+
+.Loyiha-left-2line-h5,
+.Loyiha-left-2line-h5-box-2,
+.Loyiha-left-2line-h5-box-3 {
+  font-size: 18px;
+  font-size: 400;
+  font-family: Inter;
+  margin: 0;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.Loyiha-left-2line-span,
+.Loyiha-left-2line-span-box-2,
+.Loyiha-left-2line-span-box-3 {
+  font-size: 18px;
+  font-size: 400;
+  font-family: Inter;
+  color: #81a9af;
+}
+
+.Loyiha-left-3line,
+.Loyiha-left-3line-box-2,
+.Loyiha-left-3line-box-3 {
+  display: flex;
+  gap: 15px;
+}
+
+.Loyiha-left-3line-img,
+.Loyiha-left-3line-img-box-2,
+.Loyiha-left-3line-img-box-3 {
+  width: 24px;
+  height: 24px;
+}
+
+.Loyiha-left-3line-h4 {
+  width: 417px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  font-family: Inter;
+  line-height: 28px;
+  border: 1px solid red;
+}
+
+.Loyiha-left-3line-h4-box-2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  font-family: Inter;
+  line-height: 28px;
+  border: 1px solid olive;
+  width: 400px;
+}
+.Loyiha-left-3line-h4-box-3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  font-family: Inter;
+  line-height: 28px;
+  border: 1px solid firebrick;
+}
+
+.Loyiha-left-3line-span,
+.Loyiha-left-3line-span-box-2,
+.Loyiha-left-3line-span-box-3 {
+  font-size: 18px;
+  font-size: 400;
+  font-family: Inter;
+  color: #81a9af;
+}
+
+.Loyiha-right,
+.Loyiha-right-box-2,
+.Loyiha-right-box-3 {
+  position: relative;
+  width: 606px;
+  padding-top: 25px;
+  padding-left: 100px;
+}
+
+.Loyiha-right-line-1,
+.Loyiha-right-line-1-box-2,
+.Loyiha-right-line-1-box-3 {
+  height: 505px;
+  width: 360px;
+  border: 2px solid white;
+  border-top-left-radius: 2000px;
+  border-top-right-radius: 2000px;
+  border-bottom-right-radius: 2000px;
+  border-bottom-left-radius: 2000px;
+}
+
+.Loyiha-right-line-2,
+.Loyiha-right-line-2-box-2,
+.Loyiha-right-line-2-box-3 {
+  position: absolute;
+  height: 505px;
+  width: 360px;
+  border: 2px solid white;
+  border-top-left-radius: 2100px;
+  border-top-right-radius: 2100px;
+  border-bottom-right-radius: 2100px;
+  border-bottom-left-radius: 2100px;
+  left: 80px;
+}
+
+.Loyiha-right-line-3,
+.Loyiha-right-line-3-box-2,
+.Loyiha-right-line-3-box-3 {
+  position: absolute;
+  height: 505px;
+  width: 360px;
+  border: 2px solid white;
+  background-color: white;
+  border-top-left-radius: 2100px;
+  border-top-right-radius: 2100px;
+  border-bottom-right-radius: 2100px;
+  border-bottom-left-radius: 2100px;
+  right: 20px;
+}
+
+.Loyiha-right-img {
+  padding-top: 180px;
+  padding-left: 60px;
+}
+.Loyiha-right-img-box-2 {
+  padding-top: 180px;
+  padding-left: 35px;
+}
+.Loyiha-right-img-box-3 {
+  padding-top: 200px;
+  padding-left: 100px;
+}
+
+/* Bizning mijos boshlandi  */
+
+.BizningMijoz {
+  border: 3px solid #045360;
+  background-color: #04536030;
+  margin-top: 80px;
+  border-radius: 20px;
+  padding: 40px 0 40px 0;
+}
+
+.Mijoz-h2-p {
+  text-align: center;
+}
+
+.Mijoz-h2 {
+  text-transform: uppercase;
+  font-size: 44px;
+  font-weight: 700;
+  color: white;
+  font-family: Inter;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.Mijoz-p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Inter;
+  color: white;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.Mijoz-center {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+/* Bu muhim boshlandi  */
+
+.Bumuhim-bg {
+  padding: 30px;
+  background-color: #f9c501;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+
+.Bumuhim-line {
+  margin-top: 100px;
+  border: 3px solid #f9c501;
+  border-radius: 20px;
+  padding: 20px;
+  z-index: 1;
+}
+
+.Bumuhim-h2 {
+  font-size: 44px;
+  font-weight: 700;
+  font-family: Inter;
+  color: black;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.Bumuhim-p {
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+  font-family: Inter;
+  margin-bottom: 30px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.Bumuhim-imgs {
+  z-index: 3;
+  /* position: absolute; */
+}
+
+.Bumuhim-img-1 {
+  width: 140px;
+  height: 260px;
+  position: absolute;
+  left: 100px;
+  top: 40px;
+}
+
+.Bumuhim-img-2 {
+  position: absolute;
+  right: 290px;
+  bottom: 20px;
+}
+
+.Bumuhim-img-3 {
+  position: absolute;
+  width: 111px;
+  height: 197px;
+  right: 100px;
+  top: 70px;
+}
+.Bumuhim-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 390px;
+  width: 330px;
+  height: 80px;
+  background-color: #f23607e7;
+  border: none;
+  border-radius: 20px;
+  gap: 15px;
+  box-shadow: rgba(241, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.Bumuhuim-p-2 {
+  font-size: 24px;
+  font-size: 700;
+  font-family: Inter;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 5px;
+}
+
+/* Footer boshlandi  */
+
+.Footer-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.RaqamliMCHJ {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  font-family: Inter;
+  padding-left: 100px;
+}
+
+.Instageam-a,
+.Telgroup-a,
+.Sms-a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.Instagram-p,
+.Telgroup-p,
+.Sms-p {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  font-family: Inter;
+  margin: 0;
+}
+
+.Telgroup-SmSgroup {
+  margin-top: 50px;
+}
+.sms-all {
+  padding-top: 20px;
 }
