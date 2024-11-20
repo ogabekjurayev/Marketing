@@ -39,7 +39,7 @@ export default function Header() {
         <h1 className={`Center-Header-h1 ${theme}`}>
           <span className="Center-Header-span">34 KUN</span>ICHIDA
           SAVDOLARINGIZNI <span className="Center-Header-span">70% GACHA</span>
-          OSHIRING!
+          OSHIRING!a-Ariza
         </h1>
       </div>
       <div className="box-shadow d-flex justify-content-between align-items-center">
