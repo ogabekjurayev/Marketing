@@ -10,14 +10,20 @@ import miraki from "../Imgs/miraki.png";
 import etor from "../Imgs/etor.png";
 import unio from "../Imgs/unionstudy.png";
 import mahsulot from "../Imgs/mahsulot.png";
+import React, { useContext } from "react";
+import { ThemeContext } from "../ThemeContext";
 
 export default function Mijozlar() {
+  const { toggleTheme, theme } = useContext(ThemeContext);
+  console.log(theme);
   return (
     <>
-      <div className="BizningMijoz">
+      <div className={`BizningMijoz ${theme}`}>
         <div className="Mijoz-h2-p">
-          <h2 className="Mijoz-h2">Bizning Mijozlarimiz</h2>
-          <p className="Mijoz-p">Bizga Ishonch bildirgan kompaniyalar</p>
+          <h2 className={`Mijoz-h2 ${theme}`}>Bizning Mijozlarimiz</h2>
+          <p className={`Mijoz-p ${theme}`}>
+            Bizga Ishonch bildirgan kompaniyalar
+          </p>
         </div>
         <div className="Mijoz-center">
           <img src={paynet2} alt="" />

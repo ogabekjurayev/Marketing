@@ -13,11 +13,11 @@ export default function Header() {
   console.log(theme);
 
   return (
-    <div className={`header ${theme}`}>
+    <d>
       <div className="Navbar d-flex justify-content-between">
         <div className={`Navbar-box-1 ${theme}`}>
           <img className="LL" src={Navbar} alt="" />
-          <h3 className="R-Marketing">Raqamli Marketing</h3>
+          <h3 className={`R-Marketing ${theme}`}>Raqamli Marketing</h3>
         </div>
         <div className="Navbar-box-2">
           <div onClick={toggleTheme}>
@@ -39,7 +39,7 @@ export default function Header() {
         <h1 className={`Center-Header-h1 ${theme}`}>
           <span className="Center-Header-span">34 KUN</span>ICHIDA
           SAVDOLARINGIZNI <span className="Center-Header-span">70% GACHA</span>
-          OSHIRING!a-Ariza
+          OSHIRING!
         </h1>
       </div>
       <div className="box-shadow d-flex justify-content-between align-items-center">
@@ -47,9 +47,9 @@ export default function Header() {
         <div className="box1"></div>
       </div>
       <div className="Bottom-Header">
-        <div className="Bottom-box-1">
+        <div className={`Bottom-box-1 ${theme}`}>
           <img className="Bottom-box-1-img" src={Sotuv} alt="" />
-          <p className="Bottom-box-1-p">
+          <p className={`Bottom-box-1-p ${theme}`}>
             Kechagidan <br /> ko'proq <br /> soting!
           </p>
         </div>
@@ -71,8 +71,8 @@ export default function Header() {
             </div>
           </div>
         </div>
-        <div className="Bottom-box-2 ">
-          <p className="Bottom-box-2-p">
+        <div className={`Bottom-box-2 ${theme}`}>
+          <p className={`Bottom-box-2-p ${theme}`}>
             O'ylab o'tirishga <br /> hojat yo'q deb <br /> nomlangan <br />{" "}
             <span className="Bottom-box-2-span">GARANTIYA</span> <br /> Savdo
             hajmi yaxshi tarafga <br /> o'zgarmasa xizmat pulini <br />
@@ -80,6 +80,6 @@ export default function Header() {
           </p>
         </div>
       </div>
-    </div>
+    </d>
   );
 }

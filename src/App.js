@@ -25,6 +25,7 @@ function App() {
       <KunvaTun />
       <Loyihalar />
       <Mijozlar />
+      <mantaxlagan />
       <BuMuhim />
       <Footer />
     </div>

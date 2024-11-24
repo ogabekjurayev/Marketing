@@ -3,23 +3,29 @@ import soat from "../ImgSvg/soat.svg";
 import payme from "../Imgs/paynet.png";
 import unio from "../Imgs/nova.png";
 import study from "../Imgs/study.png";
+import React, { useContext } from "react";
+import { ThemeContext } from "../ThemeContext";
 
 export default function Loyihalar() {
+  const { toggleTheme, theme } = useContext(ThemeContext);
+  console.log(theme);
   return (
     <>
       <div className="Sarlavha">
-        <h2 className="Sarlavha-h2">Loyihalar</h2>
+        <h2 className={`Sarlavha-h2 ${theme}`}>Loyihalar</h2>
       </div>
       <div className="container3">
-        <div className="Loyiha-sarlavha">
+        <div className={`Loyiha-sarlavha ${theme}`}>
           <div className="Loyiha-left">
             <div className="Loyiha-left-1line">
               <p className="Loyiha-left-1line-p"></p>
-              <h3 className="Loyiha-left-1line-h3">Target, Kontekst reklama</h3>
+              <h3 className={`Loyiha-left-1line-h3 ${theme}`}>
+                Target, Kontekst reklama
+              </h3>
             </div>
             <div className="Loyiha-left-2line">
               <img className="Loyiha-left-2line-img" src={vaqt} alt="" />
-              <h5 className="Loyiha-left-2line-h5">
+              <h5 className={`Loyiha-left-2line-h5 ${theme}`}>
                 <span className="Loyiha-left-2line-span">
                   Xizmat davomiyligi:
                 </span>
@@ -28,7 +34,7 @@ export default function Loyihalar() {
             </div>
             <div className="Loyiha-left-3line">
               <img className="Loyiha-left-3line-img" src={soat} alt="" />
-              <h4 className="Loyiha-left-3line-h4">
+              <h4 className={`Loyiha-left-3line-h4-box-1 ${theme}`}>
                 <span className="Loyiha-left-3line-span">Tahlil:</span> Paynet
                 O’zbekistonda pul o’tkazmalarini amalga oshiruvchi kompaniya
                 hisoblanadi. Raqamli jamoasi va Paynet jamoasi bilan
@@ -50,17 +56,17 @@ export default function Loyihalar() {
             </div>
           </div>
         </div>
-        <div className="Loyiha-sarlavha-box-2">
+        <div className={`Loyiha-sarlavha-box-2 ${theme}`}>
           <div className="Loyiha-left-box-2">
             <div className="Loyiha-left-1line-box-2">
               <p className="Loyiha-left-1line-p-box-2"></p>
-              <h3 className="Loyiha-left-1line-h3-box-2">
+              <h3 className={`Loyiha-left-1line-h3-box-2 ${theme}`}>
                 Target, Kontekst reklama
               </h3>
             </div>
             <div className="Loyiha-left-2line-box-2">
               <img className="Loyiha-left-2line-img-box-2" src={vaqt} alt="" />
-              <h5 className="Loyiha-left-2line-h5-box-2">
+              <h5 className={`Loyiha-left-2line-h5-box-2 ${theme}`}>
                 <span className="Loyiha-left-2line-span-box-2">
                   Xizmat davomiyligi:
                 </span>
@@ -69,7 +75,7 @@ export default function Loyihalar() {
             </div>
             <div className="Loyiha-left-3line-box-2">
               <img className="Loyiha-left-3line-img-box-2" src={soat} alt="" />
-              <h4 className="Loyiha-left-3line-h4-box-2">
+              <h4 className={`Loyiha-left-3line-h4-box-2 ${theme}`}>
                 <span className="Loyiha-left-3line-span-box-2">Tahlil:</span>{" "}
                 Nova Stroy O'zbekistonda business-class uslubidagi uylar
                 qurilish kompaniyasi hisoblanadi. Raqamli jamoasi va Nova Stroy
@@ -91,17 +97,17 @@ export default function Loyihalar() {
             </div>
           </div>
         </div>
-        <div className="Loyiha-sarlavha-box-3">
+        <div className={`Loyiha-sarlavha-box-3 ${theme}`}>
           <div className="Loyiha-left-box-3">
             <div className="Loyiha-left-1line-box-3">
               <p className="Loyiha-left-1line-p-box-3"></p>
-              <h3 className="Loyiha-left-1line-h3-box-3">
+              <h3 className={`Loyiha-left-1line-h3-box-3 ${theme}`}>
                 Target, Kontekst reklama
               </h3>
             </div>
             <div className="Loyiha-left-2line-box-3">
               <img className="Loyiha-left-2line-img-box-3" src={vaqt} alt="" />
-              <h5 className="Loyiha-left-2line-h5-box-3">
+              <h5 className={`Loyiha-left-2line-h5-box-3 ${theme}`}>
                 <span className="Loyiha-left-2line-span-box-3">
                   Xizmat davomiyligi:
                 </span>
@@ -110,7 +116,7 @@ export default function Loyihalar() {
             </div>
             <div className="Loyiha-left-3line-box-3">
               <img className="Loyiha-left-3line-img-box-3" src={soat} alt="" />
-              <h4 className="Loyiha-left-3line-h4-box-3">
+              <h4 className={`Loyiha-left-3line-h4-box-3 ${theme}`}>
                 <span className="Loyiha-left-3line-span-box-3">Tahlil:</span>{" "}
                 Union Study Russia O'zbekistonda abuturentlarni Rossiya va
                 evropa mamlaktliriga oliy o’quv yurtlariga junatuvchi kompaniya
