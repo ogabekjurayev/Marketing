@@ -29,7 +29,7 @@ export default function Header() {
           </div>
           <div className="box-2-a">
             <img className="Strelka" src={Strelka} alt="" />
-            <a className="a-Ariza" href="#">
+            <a className="a-Ariza" href="http://localhost:3000">
               Ariza Yuborish
             </a>
           </div>

@@ -1,4 +1,3 @@
-// import BagImg from "../ImgSvg/orqa fon rasm1.svg";
 import React, { useContext } from "react";
 import { ThemeContext } from "../ThemeContext";
 

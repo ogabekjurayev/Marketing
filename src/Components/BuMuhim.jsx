@@ -1,5 +1,4 @@
 import { useState } from "react";
-import signal from "../ImgSvg/Signal.svg";
 import dollor from "../ImgSvg/dolir.svg";
 import strelkapast from "../ImgSvg/strelkapast.svg";
 import foiz from "../ImgSvg/foiz.svg";
