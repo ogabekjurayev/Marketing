@@ -16,23 +16,23 @@ export default function Loyihalar() {
       </div>
       <div className="container3">
         <div className={`Loyiha-sarlavha ${theme}`}>
-          <div className="Loyiha-left">
-            <div className="Loyiha-left-1line">
+          <div className={`Loyiha-left ${theme}`}>
+            <div className={`Loyiha-left-1line ${theme}`}>
               <p className="Loyiha-left-1line-p"></p>
               <h3 className={`Loyiha-left-1line-h3 ${theme}`}>
-                Target, Kontekst reklama
+                Target, Kontekst <br /> reklama
               </h3>
             </div>
-            <div className="Loyiha-left-2line">
+            <div className={`Loyiha-left-2line ${theme}`}>
               <img className="Loyiha-left-2line-img" src={vaqt} alt="" />
               <h5 className={`Loyiha-left-2line-h5 ${theme}`}>
-                <span className="Loyiha-left-2line-span">
+                <span className={`Loyiha-left-2line-span ${theme}`}>
                   Xizmat davomiyligi:
                 </span>
                 2 yil
               </h5>
             </div>
-            <div className="Loyiha-left-3line">
+            <div className={`Loyiha-left-3line ${theme}`}>
               <img className="Loyiha-left-3line-img" src={soat} alt="" />
               <h4 className={`Loyiha-left-3line-h4-box-1 ${theme}`}>
                 <span className="Loyiha-left-3line-span">Tahlil:</span> Paynet
@@ -57,11 +57,11 @@ export default function Loyihalar() {
           </div>
         </div>
         <div className={`Loyiha-sarlavha-box-2 ${theme}`}>
-          <div className="Loyiha-left-box-2">
-            <div className="Loyiha-left-1line-box-2">
+          <div className={`Loyiha-left-box-2 ${theme}`}>
+            <div className={`Loyiha-left-1line-box-2 ${theme}`}>
               <p className="Loyiha-left-1line-p-box-2"></p>
               <h3 className={`Loyiha-left-1line-h3-box-2 ${theme}`}>
-                Target, Kontekst reklama
+                Target, Kontekst <br /> reklama
               </h3>
             </div>
             <div className="Loyiha-left-2line-box-2">
@@ -99,10 +99,10 @@ export default function Loyihalar() {
         </div>
         <div className={`Loyiha-sarlavha-box-3 ${theme}`}>
           <div className="Loyiha-left-box-3">
-            <div className="Loyiha-left-1line-box-3">
+            <div className={`Loyiha-left-1line-box-3 ${theme}`}>
               <p className="Loyiha-left-1line-p-box-3"></p>
               <h3 className={`Loyiha-left-1line-h3-box-3 ${theme}`}>
-                Target, Kontekst reklama
+                Target, Kontekst <br /> reklama
               </h3>
             </div>
             <div className="Loyiha-left-2line-box-3">

@@ -8,6 +8,9 @@ import Loyihalar from "./Components/Loyihalar";
 import Mijozlar from "./Components/Mijozlar";
 import BuMuhim from "./Components/BuMuhim";
 import Footer from "./Components/Footer";
+import MobilniAbautUs from "./Components/MobilniAbautUs";
+import { useMediaQuery } from "react-responsive";
+import MobilniKunvaTun from "./Components/MobilniKunvaTun";
 
 function App() {
   const { theme } = useContext(ThemeContext);
@@ -18,11 +21,13 @@ function App() {
     changeBackground(theme === "light" ? "white" : "black");
   }, [theme]);
 
+  const isMobile = useMediaQuery({ query: "(max-width: 479px)" });
+
   return (
     <div className="container1">
       <Header />
-      <AbautUs />
-      <KunvaTun />
+      <div>{isMobile ? <MobilniAbautUs /> : <AbautUs />}</div>
+      <div>{isMobile ? <MobilniKunvaTun /> : <KunvaTun />}</div>
       <Loyihalar />
       <Mijozlar />
       <BuMuhim />
